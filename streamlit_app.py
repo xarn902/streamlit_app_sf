@@ -18,6 +18,6 @@ st.multiselect("Pick some fruits: ", list(my_fruit_list.index), ['Avocado','Stra
 
 #my_fruit_list_filtered = my_fruit_list[my_fruit_list['Fruit'].isin(selected_fruits)]
 
-st.dataframe(my_fruit_list_filtered)
+st.dataframe(my_fruit_list)
 
 
