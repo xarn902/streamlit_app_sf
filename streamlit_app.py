@@ -23,4 +23,4 @@ st.dataframe(fruits_to_show)
 
 
 fruityvice_response = requests.get("https://fruityvice.com/api/fruit/watermelon")
-st.text("tests")
+st.text(fruityvice_response)
